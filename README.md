@@ -16,7 +16,7 @@ A sleek, cross-platform ML-powered app that predicts Iris flower species based o
 |--------------|-------------------------------------|
 | Frontend     | Flutter, Dart                       |
 | Backend      | Flask, scikit-learn, Python         |
-| Deployment   | Render / Railway / Heroku (choose yours) |
+| Deployment   | NGROK for testing |
 | Testing      | Postman, Android Emulator, Real Device |
 
 ## 📷 Screenshots
