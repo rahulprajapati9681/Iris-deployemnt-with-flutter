@@ -1,6 +1,6 @@
 # 🌸 Iris Species Predictor
 
-This is ML project where i have created a beginner firendly ML model on iris dataset and that have been deployed using flask (to create an API of model) and NGROK (to create a secure tunnel to local host) over a flutter Mobile appliocation, we are using our laptop as server here were our model will be running in local host and other devices can access it via a NGROK link as an API in flutter application
+This is ML project where i have created a beginner firendly ML model on iris dataset and that have been deployed using flask (to create an API of model) and NGROK (to create a secure tunnel to local host) over a flutter Mobile application, we are using our laptop as server here were our model will be running in local host and other devices can access it via a NGROK link as an API in flutter application
 
 ## 📦 How to use this project ( SET UP )
 - all files except " model_flask_setup " are core flutter files if you want to make any changes in UI of application you can else leave it no need to touch
