@@ -1,6 +1,14 @@
 # 🌸 Iris Species Predictor
 
-A sleek, cross-platform ML-powered app that predicts Iris flower species based on user input. Built with a modular Flutter frontend and a robust backend ML API, this project showcases real-time prediction, responsive design, and elegant UI transitions.
+This is ML project where i have created a beginner firendly ML model on iris dataset and that have been deployed using flask (to create an API of model) and NGROK (to create a secure tunnel to locak host) over a flutter Mobile appliocation, we are using our laptop as server here were our model will be running in local host and other devices can access it via a NGROK link as an API in flutter application
+
+## 📦 How to use this project ( SET UP )
+- Create a seperate folder keep ML model and flask code in same folder
+- run flask code to create an API of model that will only run on your local host
+- Install and setup NGROK run "ngrok http 5000 (here 5000 is your locak port on which model is running ngrok will create a secure tunnel and provide you an Forwarding URL)"
+- enter that forwarded URL in flutter applications to make prediction
+
+OR CONTACT ME :)
 
 ## 🚀 Features
 
@@ -9,6 +17,7 @@ A sleek, cross-platform ML-powered app that predicts Iris flower species based o
 - 🎨 **Modern UI/UX** with animated transitions and polished input fields
 - 🧠 **Modular Architecture** for maintainability and scalability
 - 📊 **Reliable Results** validated across platforms
+
 
 ## 🛠️ Tech Stack
 
@@ -31,11 +40,3 @@ A sleek, cross-platform ML-powered app that predicts Iris flower species based o
 
 ![WhatsApp Image 2025-09-19 at 16 07 02_89d62221](https://github.com/user-attachments/assets/292ec7cc-2597-4997-b96a-37c82e48b5c9)
 
-
-## 📦 Installation
-
-### Backend (ML API)
-```bash
-cd iris-api
-pip install -r requirements.txt
-python app.py
