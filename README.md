@@ -3,8 +3,9 @@
 This is ML project where i have created a beginner firendly ML model on iris dataset and that have been deployed using flask (to create an API of model) and NGROK (to create a secure tunnel to locak host) over a flutter Mobile appliocation, we are using our laptop as server here were our model will be running in local host and other devices can access it via a NGROK link as an API in flutter application
 
 ## 📦 How to use this project ( SET UP )
-- Create a seperate folder keep ML model and flask code in same folder
-- run flask code to create an API of model that will only run on your local host
+- all files except " model_flask_setup " are core flutter files if you want to make any changes in UI of application you can else leave it no need to touch
+- Create a seperate folder keep ML model and flask code in same folder (model_flask_setup)
+- run flask code(app.py) to create an API of model that will only run on your local host
 - Install and setup NGROK run "ngrok http 5000 (here 5000 is your locak port on which model is running ngrok will create a secure tunnel and provide you an Forwarding URL)"
 - enter that forwarded URL in flutter applications to make prediction
 
